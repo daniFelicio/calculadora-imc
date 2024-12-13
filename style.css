@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(135deg, #2e0433 0%, #110220 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  --bs-card-bg: #000;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #e409ad;
+  font-weight: 700;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #e409ad;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+  border: 2px solid #850296;
+  transition: all 0.3s ease;
+}
+.form-select{
+  color: #e409ad;
+}
+.form-control:focus, .form-select:focus {
+  border-color: #4c034e;
+  box-shadow: 0 0 0 0.2rem #e409ad
+}
+
+
+.btn-primary {
+  background-color: #8f0588;
+  border-color: #580154;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  --bs-btn-active-color:#8f0588 ;
+  --bs-btn-active-bg:#8f0588 ;
+}
+
+.btn-primary:hover {
+  background-color: #e409ad;
+  border: color #580154; 
+  color: #550469;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #8f0588;
+  border-color: #580154;
+  color: #fffefe;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  --bs-btn-active-color:#8f0588 ;
+  --bs-btn-active-bg:#8f0588 ;
+}
+
+.btn-secondary:hover {
+  background-color: #e409ad;
+  border: color #580154; 
+  color: #550469;
+  transform: translateY(-2px);
+}
+
+#result {
+  background-color: #00080f;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+#result-image {
+  max-width: 200px;
+  height: auto;
+  margin-top: 1rem;
+  box-shadow: 0 4px 6px rgba(17, 16, 16, 0.1);
+}
+
