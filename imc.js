@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const images = {
         feminino: {
-            abaixo: 'imagem_fem/magra.jpg',
-            normal: '/imagem_fem/mulher_normal.jpg',
-            acima: 'imagem_fem/obesidade.jpg'
+            abaixo: 'magra.jpg',
+            normal: 'mulher_normal.jpg',
+            acima: 'obesidade.jpg'
         },
         masculino: {
-            abaixo: '/imagem_masc/seco.jpg',
-            normal: '/imagem_masc/padrao.jpg',
-            acima: '/imagem_masc/obeso.jpg'
+            abaixo: 'seco.jpg',
+            normal: 'padrao.jpg',
+            acima: 'obeso.jpg'
         }
     };
 
